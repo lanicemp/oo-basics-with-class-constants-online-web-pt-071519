@@ -1,5 +1,5 @@
 class Book
-  attr_accessor :author, :page_count, 
+  attr_accessor :author, :page_count 
   #:genre (removed genre because we are costomizing it.)
   attr_reader :title, :genre 
   
