@@ -18,6 +18,7 @@ def brand=(brand)
   if BRANDS.include?(brand)
   else 
 BRANDS << brand
+  end 
 
 end 
 
